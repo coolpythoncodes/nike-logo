@@ -1,0 +1,76 @@
+#nike {
+  border: 1px solid #000;
+  height: 200px;
+  width: 470px;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  text-indent: 350px;
+  line-height: 300px;
+  z-index: 3;
+  overflow: hidden;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+}
+
+#nike::before{
+    position: absolute;
+    content: '';
+    height: 550px;
+    width:150px;
+    background: #000;
+    z-index: 1;
+    top:-250px;
+    left: 190px;
+    border-top-left-radius:60px 110px;
+    border-top-right-radius: 130px 220px;
+    transform: rotate(-113deg);
+
+}
+
+#nike::after{
+    position: absolute;
+    content: '';
+    height: 500px;
+    width:120px;
+    background:#fff;
+    z-index: 2;
+    top:-235px;
+    left: 220px;
+    border-top-left-radius:70px 110px;
+    border-top-right-radius: 130px 220px;
+    transform: rotate(-104deg);
+    
+}
+
+/*
+ #nike::before{
+    position: absolute;
+    content: '';
+    height: 600px;
+    background: #000;
+    width: 170px;
+    top: -160px;
+    top: -200px;
+    left: 240px;
+    border-top-left-radius: 120px 180px;
+    border-top-right-radius: 90px 130px;
+    z-index: 2;
+    transform: rotate(240deg);
+
+}
+
+#nike::after{
+    position: absolute;
+    content: '';
+    background: white;
+    top: -200px;
+    top:-240px;
+    left: 270px;
+    height: 600px;
+    width: 170px;
+    z-index: 2;
+    transform: rotate(250deg);
+    border-top-left-radius: 70px 130px;
+    border-top-right-radius: 140px 150px;
+} */
